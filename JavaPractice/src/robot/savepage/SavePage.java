@@ -6,7 +6,7 @@ import java.awt.event.KeyEvent;
 
 public class SavePage {
 
-	public static void main(String[] args) throws InterruptedException, AWTException {
+	public static void main(String[] args) throws Exception {
 		Thread.sleep(3000);
 		Robot rb = new Robot();
 		rb.mousePress(InputEvent.BUTTON1_DOWN_MASK);
